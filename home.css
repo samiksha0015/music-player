@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 130%;
+    background-image: url('home.png'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    color: #fff; /* Ensures text is readable on the background */
+  }
+  
+  
+  header {
+    background:black;
+    padding: 1rem;
+    text-align: center;
+  
+  }
+  /* Navigation Bar */
+  
+header {
+  background-color: balck ;
+  padding: 10px 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav h1 {
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+  
+  
+  main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2rem;
+  }
+  
+  .playlist {
+
+    width: 60%;
+  }
+  
+  .player {
+    width: 90%;
+    text-align: center;
+  }
+  
+  button {  
+    background: #1db954;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+      background: #1ed760;
+  }
